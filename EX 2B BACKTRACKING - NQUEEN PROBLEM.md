@@ -85,6 +85,7 @@ solveNQ()
 ```
 
 ## Output:
+![image](https://github.com/user-attachments/assets/343231d6-343c-4f86-a887-e3be26254a15)
 
 
 
