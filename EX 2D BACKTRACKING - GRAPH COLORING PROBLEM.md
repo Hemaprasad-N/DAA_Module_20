@@ -6,11 +6,13 @@ To solve the Graph Coloring Problem using backtracking, assigning colors to the 
 
 
 ## Algorithm
+```
 1. Create a graph using an adjacency matrix for V vertices.
 2.Initialize a color array with 0 (unassigned) for all vertices.
 3.Use backtracking to assign colors (1 to m) to each vertex.
 4.Ensure no two adjacent vertices have the same color using is_safe().
-5.Print the color assignment if successful; else, print "Solution does not exist". 
+5.Print the color assignment if successful; else, print "Solution does not exist".
+```
 
 ## Program:
 ```
