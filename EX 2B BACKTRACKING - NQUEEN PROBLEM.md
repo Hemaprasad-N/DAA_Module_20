@@ -5,11 +5,13 @@ To solve the N-Queen problem using backtracking, which places N queens on an N*N
 
 
 ## Algorithm
+```
 1. Read the value of N and create an N x N chessboard initialized with 0s.
 2.Define a function isSafe() to check if a queen can be placed at a given position by ensuring no other queens threaten it horizontally, and diagonally (upper-left and lower-left).
 3.Use a recursive function solveNQUtil() that tries to place queens column by column.
 4.If a safe position is found, place the queen and recursively try to place the rest; if it fails, backtrack and remove the queen.
 5.Print the board if a solution is found; otherwise, print "Solution does not exist".
+```
    
 
 ## Program:
