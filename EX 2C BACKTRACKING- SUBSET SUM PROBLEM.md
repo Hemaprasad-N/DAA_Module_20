@@ -5,12 +5,14 @@ To demonstrate that the sum of the subset of a given set is equal to the given s
 
 
 ## Algorithm
+```
 1. Input the array a: Read the number of elements and then read the elements into list a.
 2.Input the target sum that needs to be achieved by any subset of a.
 3.Define a recursive function SubsetSum() to check whether the target sum can be achieved.
 4.At each step, either include the current element in the sum or exclude it, and move to the next element.
 5.Print "True, subset found" if a subset exists that matches the target; otherwise, print "False, subset not found".
-## Program:
+## Program:\
+```
 ```
 /*
 Program to implement Subset sum problem.
